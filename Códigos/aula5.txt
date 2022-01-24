@@ -1,3 +1,6 @@
+**** estilos.css ****
+
+
 @font-face {
 	font-family:Titulo;
 	src:url(../fontes/ANODETONOONE.TTF);
@@ -8,6 +11,7 @@ h1 {
 	font-size:40px;
 	color:#603A03;
 }
+
 body {
 	background-image:url(../imgs/fundo.jpg);
 }
@@ -76,53 +80,11 @@ background-image:url(../imgs/apache.png);
  	margin-top:100px;
 	text-align:center;
 	padding:10px;
-	
-	
-}
 
-.anima1 {
-	background-image:url(../imgs/helicoptero.png);
-	animation:play .5s steps(2) infinite;
-	
-	-webkit-animation: play .5s steps(2) infinite;
-       -moz-animation: play .5s steps(2) infinite;
-       -ms-animation: play .5s steps(2) infinite;
-       -o-animation: play .5s steps(2) infinite;
-	   
-}
-
-@keyframes play {
-	from {background-position:0px;}
-	to {background-position:-512px;}
 }
 
 
-@-webkit-keyframes play {
-   from { background-position:0px; }
-     to { background-position: -512px; }
-}
+**** index.html ****
 
-@-moz-keyframes play {
-   from { background-position:0px; }
-     to { background-position: -512px; }
-}
-
-@-ms-keyframes play {
-   from { background-position:0px; }
-     to { background-position: -512px; }
-}
-
-@-o-keyframes play {
-   from { background-position:0px; }
-     to { background-position: -512px; }
-}
-
-.anima2 {
-    background-image:url(../imgs/inimigo1.png);
-    animation: play .5s steps(2) infinite;
-    -webkit-animation: play .5s steps(2) infinite;
-    -moz-animation: play .5s steps(2) infinite;
-    -ms-animation: play .5s steps(2) infinite;
-    -o-animation: play .5s steps(2) infinite; 
-}
+<link href="css/estilos.css" rel="stylesheet" type="text/css">
 
